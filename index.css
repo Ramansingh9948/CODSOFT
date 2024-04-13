@@ -1,0 +1,58 @@
+body{
+    background-color: lightgoldenrodyellow;
+
+}
+h1{
+    text-align: center;
+    text-size-adjust: 150px;
+    text-shadow: 2px 2px rgb(8, 116, 8);
+    color: red;
+    font-size: 40px;
+    text-decoration: green solid underline;
+  /*  background-color: rgb(60, 205, 60);*/
+  }
+   div p{
+      display: flex;
+  }
+  img{
+      display: inline-block;
+      height: 150px;
+      width: 200px;
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  aipic3{
+      position: left;
+  }
+.intro{
+    height: 100px;
+    width: 100px;
+}
+h2{
+    color: #120896;
+}
+h3{
+    color: purple;
+}
+.key{
+    text-decoration: none;
+}
+
+.thankpage{
+    height: 500px;
+    width: 700px;
+    align-items: center;
+    margin-left: 400px;
+}
+.name{
+    font-size: 50px;
+    color: black;
+    text-align: end;
+}
+.thanku{
+    font-size: 200px;
+    color: red;
+    text-shadow: 4px 4px green;
+    text-decoration: green solid underline;
+    text-align: center;
+}

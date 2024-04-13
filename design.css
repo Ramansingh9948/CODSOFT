@@ -1,0 +1,156 @@
+header  h1{
+    color: rgb(80, 143, 231);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: right;
+}
+.navigation a {
+    margin-right: 25px;
+    margin-top: auto;
+    text-decoration: none;
+}
+.header {
+    border: 2px solid rgb(80, 143, 231) ;
+    background-color: rgba(250, 251, 252, 0.977);
+    border-radius: 15px;
+    height: 10vh;
+    padding: 5px;
+}
+body {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.main {
+    display:flex;
+    padding: 5px;
+}
+.left {
+    border: 2px solid rgb(19, 16, 16) ;
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(21, 20, 20);
+    border-radius: 15px;
+
+}
+.right {
+    border: 2px solid rgb(0, 0, 0) ;
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(0,0,0);
+    border-radius: 15px;
+
+
+}
+.Pic {
+    height: 200px;
+    width: 200px;
+    border: 5px solid yellow;
+    border-radius: 100%;
+    align-items: center;
+}
+.left img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+}
+ a button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3vh;
+    border: 2px solid rgb(22, 19, 19);
+    height: 6vh;
+    width: 40vh;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+a button {
+    color: white;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.bgcolor {
+    background-color: rgb(20, 17, 17);
+
+}
+a button:hover {
+    background-color: yellow;
+    color: red;
+}
+.ELEMENT {
+    margin-top: 30VH;
+}
+.BOLD {
+    font-size: 35px;
+}
+.animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+  
+  .progress-blue span {
+    background-color: rgb(247, 243, 5);
+    width: 90%;
+  }
+  .progress-green span {
+    background-color: green;
+    width: 80%;
+
+  }
+  .progress-purple span {
+    background-color: indigo;
+    width: 70%;
+
+  }
+  .progress-red span {
+    background-color: rgb(188, 67, 67);
+    width: 80%;
+
+  }
+  .bar {
+    display: flex;
+  }
+  .contactus{
+    text-align: center;
+}
+.contactusemail{
+    padding: 2px;
+}
+.contactusphone{
+    padding: 2px;
+}
