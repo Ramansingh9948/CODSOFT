@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raman Store</title>
+    <script lin></script>
+    <link rel="icon" href="Raman store logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+body{
+    background-color: white;
+
+}
+
+.navigationoption li {
+    display: inline-block;
+    margin-left:15px ;    
+}
+.navigationoption  li a{
+    text-decoration-color: white;
+    color: black;
+    text-decoration: none;
+}
+.homepageoptn{
+    position: var(right);
+    
+}
+nav{
+    background-color: rgb(192, 193, 232);
+    color: white;
+    display: flex;
+
+}
+#login{
+  
+    
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(192, 193, 232);
+    display: flex;
+    margin: 10px 0 10px 0;
+
+}
+.loginbtn{
+    margin: auto;
+}
+#name{
+    background-color: rgb(61, 58, 58);
+}
+
+#name h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+#name h5{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 2px;
+}
+
+.input{
+    background-color: azure;
+    border-radius: 5px;
+}
+.loginbtn{
+    color: white;
+    background-color:cornflowerblue ;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    height: 35px;
+    padding-left: 5px;
+}
+.createaccount{
+    color: white;
+    background-color:cornflowerblue ;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+.signupbtn{
+    color: white;
+    background-color:cornflowerblue ;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    height: 35px;
+    padding-left: 5px;
+}
+button a {
+    text-decoration: none;
+}
+.pagetitle {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 1px 0 1px 0;
+}
+.productclass {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+main {
+    display: flexbox;
+}
+.productclass img {
+    height: 150px;
+    width: 150px;
+}
+.homepagebtn a button{
+    color: green;
+    background-color: rgb(255, 00, 00);
+    border-radius: 10px;
+    height: 30px;
+    /*display: block;*/
+    justify-content: end;
+
+}
+.homeoagebtn a{
+    display: inline-block;
+}
+.footer {
+    background-color: rgb(51, 44, 44);
+    text-align: center;
+    color: white;
+}
+.newsletter{
+    background-color:rgb(51, 44, 44);
+    text-align: center;
+    padding-bottom: 5px;
+}
+.newsletter button{
+    border-radius: 10px;
+}
+.contactus{
+    background-color:rgb(51, 44, 44);
+    text-align: center;
+}
+.useremail{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+}
+.userpass{
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+}
+.form{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.cartnewsletter{
+    padding-bottom: 5px;
+    border-radius: 15px;
+    width: 400px;
+}
+.contactusemail{
+    padding: 2px;
+}
+.contactusphone{
+    padding: 2px;
+}
+
+.option li a{
+    text-decoration-color: white;
+    color: black;
+    text-decoration: none;
+}
+.input{
+    height: 25px;
+    width: 400px;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: auto;
+}
+.signupform{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(192, 193, 232);
+    display: flex;
+    margin: 10px 0 10px 0;
+
+}
+.signupdiv{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+}
+.signupemail {
+    padding: 5px 0 5px 0;
+}
+
+.shortcut a {
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 20px;
+}
+.fa-home {
+    color: cornflowerblue;
+    height: 25px;
+    width: 25px;
+}
+.pre-footer {
+    color: white;
+}
+.heart {
+    color: red;
+    size-adjust: 25px;
+}
+</style>
+</head>
+<body>
+    <div id="name">    
+        <h1>RAMAN STORE</h1>
+        <h5>SHOP WITH PRIDE</h5></a>
+     </div>
+     <div class="shortcut">
+        <a href="index.html"><i class="fa fa-home"></i></a>
+    </div>
+    <!-- <button class="nightmode">Dark</button> -->
+  <nav class="mainmenu">
+     <ul class="navigationoption">
+        <li class="loginb"><a href="login.html "><b>Login</b></a> </li>
+        <li class="cart"><a href="cart.html"><b>Cart</b></a> </li>
+        <li class="menscollection"><a href="menscollection.html"><b>Mens Collection</b></a></li>
+        <li class="womencollection"><a href="womenscollection.html"><b>Women Collection</b></a></li>
+        <li class="myaccount"><a href="myaccount.html"><b>My Account</b></a></li>
+        <li class="myorder"><a href="myorder.html"><b>My Order</b></a></li>
+        <li class="Signup"><a href="Signup.html"><b>Sign up</b></a></ul>
+    </ul>
+  </nav>
+    <div >
+        <form class="form">
+           <h1>Login Page</h1>
+           <label for="email">
+               <b> Enter Email I'd:</b>
+           </label> 
+           <br>
+           <input type="email" placeholder="Enter your Email... " class="useremail" id="email" autocomplete="email">
+           <br>
+           <label for="signinpass">
+              <b>Enter you password:</b>
+           </label>
+           <br>
+           <input type="password" id="signinpass" placeholder="Enter your password..." class="userpass" autocomplete="current-password">
+           <br>
+           <button type="submit" class= "loginbtn">Login</button>
+           <br>
+           or
+           <br>
+          <b> Already have account</b>  &nbsp;
+           <button class="signupbtn"><a href="Signup.html" style="text-decoration: none;" >Sign up</a></button>
+        </form>
+    </div>
+    <main>
+        <div class="productclass" id="productclass">
+            <img src="https://dresseskhazana.com/wp-content/uploads/2017/02/Colored-Kurta.jpg" class="productclassimage">
+            <h3>Knee Kurta with Payajama</h3>
+            Price: ₹<span style="color: red;text-decoration: line-through;">999.00</span>
+            <br>
+            New Price:  ₹499
+            <br>
+            <button class="buynow">Buy Now</button>
+            <button>Add to Cart</button> 
+      </div>
+      <div class="productclass" id="productclass">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.DS3PFGvuZap6_PYpjaRkFgHaHa&pid=Api&P=0&h=220" class="productclassimage">
+        <h3>Payajama</h3>
+        Price: ₹<span style="color: red;text-decoration: line-through;">499.00</span>
+        <br>
+        New Price:  ₹349
+        <br>
+        <button class="buynow">Buy Now</button>
+        <button>Add to Cart</button>
+        </div>
+      <div class="productclass" id="productclass">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.-kEEq4WM78UYqO2Oo3E3OwHaJB&pid=Api&P=0&h=220" class="productclassimage">
+        <h3>Trouser</h3>
+        Price: ₹<span style="color: red;text-decoration: line-through;">699.00</span>
+        <br>
+        New Price:  ₹459
+        <br>
+        <button class="buynow">Buy Now</button>
+        <button>Add to Cart</button>
+      </div>
+<div class="productclass" id="productclass">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.TkEXqbhr8ptgEEKGomNdzgHaHa&pid=Api&P=0&h=220" class="productclassimage">
+    <h3>Oversized T-shirt</h3>
+    Price: ₹<span style="color: red;text-decoration: line-through;">499.00</span>
+    <br>
+    New Price:  ₹199
+    <br>
+    <button class="buynow">Buy Now</button>
+    <button>Add to Cart</button>
+  </div>
+  <div class="productclass" id="productclass">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.RnQjavKQUlFLgzWNd3ltZgHaHa&pid=Api&P=0&h=220" class="productclassimage">
+    <h3>Shirt</h3>
+    Price: ₹<span style="color: red;text-decoration: line-through;">799.00</span>
+    <br>
+    New Price:  ₹459
+    <br>
+    <button class="buynow">Buy Now</button>
+    <button>Add to Cart</button>
+   </div>
+ </main>
+    <div class="pre-footer">
+        <div class="contactus">
+            <h1>Contact us</h1>
+            <p class="contactusphone">Phone: +919648470308</p>
+            <p class="contactusemail">Email: rsingh24595@gmail.com</p>
+            </div>
+        <div class="newsletter">
+            <label for="newsemail">
+                <h1>SUBSCRIBE</h1>
+            </label> 
+            <input type="email" placeholder="Enter your email to get the notification on latest collection" class="cartnewsletter" id="newsemail" autocomplete="email">  &nbsp; &nbsp;
+            <button type="submit">Subscribe</button>
+            <br>
+            <hr>
+            <a href="https://wa.me/+919648470308?text=hello" style="text-decoration: none; color: white;">Click to chat with us<button> Whatsapp</button></a>
+        </div>
+        </div>
+        <footer class="footer">
+            <div class="contactdeveloper">
+                <h3>Contact Developer</h3>
+                 <a href="https://twitter.com/rsingh24595">
+                  <img src="assets/twitter_icon.png" alt="Twitter" class="twitter">
+                </a>
+                <a href="https://instagram.com/ramanstore.in">
+                     <img src="assets/instagram_icon.png" alt="Instagram" class="Instgram">
+                </a>
+                <a href="https://www.snapchat.com/add/ramans20233103">
+                    <img src="assets/snapchat_icon.png" alt="Snapchat" class="Snapchat">
+               </a>
+                <a href="https://www.linkedin.com/in/raman-singh-417239219">
+                 <img src="assets/linkedin_icon.png" alt="Linkedin" class="linkedin">
+               </a>
+            </div>
+            <hr>
+            <p> &copy; 2023 ramanstore.in&nbsp;| All rights are reserved</p>
+            Made with <span class="heart"> &heartsuit; by Raman Singh</span>
+        </footer>
+    <script src="index.js">
+    </script>
+</body>
+</html>
