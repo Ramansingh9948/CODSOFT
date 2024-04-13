@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/School-Mathematics-Wallpaper-Background.jpg);
+    background-size: 100%;
+    
+}
+.heading{
+    text-align:center;
+    color: black;
+
+}
+
+
+.button{
+    height: 35px;
+    width: 35px;
+    margin: 3px 3px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: chocolate;
+    
+
+}
+.container{
+    margin: auto;
+    width: 200px;
+    cursor: pointer;
+}
+ .input input{
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 2px;
+    width: 200px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+
+}
+.flex{
+    display: flex;
+}
